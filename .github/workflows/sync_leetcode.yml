@@ -14,8 +14,8 @@ jobs:
         uses: joshcai/leetcode-sync@v1.5
         with:
           github-token: ${{ github.token }}
-          leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
-          leetcode-session: ${{ secrets.LEETCODE_SESSION }}
+          leetcode-csrf-token: j9E3gUQDDHowRJjcKEVqsQooEO1laNmVmvCMfElcJsvb99uj6XGPzCxE8rlJjPsX
+          leetcode-session: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfYXV0aF91c2VyX2lkIjoiNTA0Mjc4MiIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImFsbGF1dGguYWNjb3VudC5hdXRoX2JhY2tlbmRzLkF1dGhlbnRpY2F0aW9uQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6Ijk3YjFkZmJiM2M1NGY2N2EyODdkNjkzY2U2YTAxMmYyYzNlM2I2M2FiODNjNjViZDhmYjAxZWNlMGJiZjJhNzgiLCJpZCI6NTA0Mjc4MiwiZW1haWwiOiJkZXZhbnNoa3VtYXI4M0BnbWFpbC5jb20iLCJ1c2VybmFtZSI6IkRldmFuc2hfNTQxIiwidXNlcl9zbHVnIjoiRGV2YW5zaF81NDEiLCJhdmF0YXIiOiJodHRwczovL2Fzc2V0cy5sZWV0Y29kZS5jb20vdXNlcnMvZGV2YW5zaGt1bWFyODMvYXZhdGFyXzE2MzM2MzIxNTAucG5nIiwicmVmcmVzaGVkX2F0IjoxNzIyNjk4MDY3LCJpcCI6IjEwMy4xMDYuMjAwLjYwIiwiaWRlbnRpdHkiOiIzNjJkN2ZlM2Q4YjI1ODFiZmZhMzU5ZjBlZWRhNzEwNiIsImRldmljZV93aXRoX2lwIjpbImNiODA1M2U3ODg4ZWEwMDNmYTIyMWE2NTFjMTBkMmJjIiwiMTAzLjEwNi4yMDAuNjAiXSwic2Vzc2lvbl9pZCI6NjgwNzUwOTcsIl9zZXNzaW9uX2V4cGlyeSI6MTIwOTYwMH0.q1Io2-BNVbQKroUz8-fOXtv24YltX0jtIcquqFbmtdg
           destination-folder: my-folder
           verbose: true
           commit-header: '[LeetCode Sync]'
